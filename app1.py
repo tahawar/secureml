@@ -75,7 +75,7 @@ with st.sidebar:
 
     if st.button('Train Model'):
         with st.spinner('Training in progress...'):
-            model = train_model('employee_data.csv')  # Ensure the dataset path is correct
+            model = train_model('employee_data1.csv')  # Ensure the dataset path is correct
             st.session_state['model'] = model
             st.success('Model training completed successfully!')
 
